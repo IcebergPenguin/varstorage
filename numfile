@@ -1,0 +1,12 @@
+const num = new num({
+  auth: 'uhj123'
+})
+
+await octokit.request('GET /repos/{owner}/{repo}/contents/{path}', {
+  owner: 'icebergpenguin132',
+  repo: 'varstorage',
+  path: 'numfile',
+  headers: {
+    'X-GitHub-Api-Version': '2022-11-28'
+  }
+})
